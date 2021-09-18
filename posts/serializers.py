@@ -8,6 +8,8 @@ class PostRetrieveSerializer(serializers.ModelSerializer):
 
     author = UserSerializer()
 
+
+    # tet
     class Meta:
         model = Post
         fields = (
